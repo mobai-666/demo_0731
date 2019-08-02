@@ -22,7 +22,7 @@ public class MainClass {
         ResultSet r = (ResultSet) p.getGeneratedKeys();
         if (r.next()) {
             System.out.println("主键回写：" + r.getInt(1));
-
+            System.out.println("v2");
         }
 
 
